@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css.css">
+    <script src="js.js"></script>
+    <style>
+        .ai_card .w1200 ul .active .Infos{width: 100%;height: 100%}
+    </style>
+</head>
+<body>
+<div class="ai_card">
+    <h2 class="t">校园生活</h2>
+    <div class="w1200">
+        <ul>
+            <li class="active">
+                <div class="info Infos" >
+                    <img src="img/1.jpg" style="width: 396px;height: 330px"/>
+                </div>
+                <a href="#" class="btn">了解详情</a>
+            </li>
+            <li>
+                <div class="info Infos" >
+                    <img src="img/2.jpg" style="width: 396px;height: 330px"/>
+                </div>
+                <a href="#" class="btn">了解详情</a>
+            </li>
+            <li>
+                <div class="info Infos" >
+                    <img src="img/3.jpg" style="width: 396px;height: 330px"/>
+                </div>
+                <a href="#" class="btn">了解详情</a>
+            </li>
+            <li>
+                <div class="info Infos" >
+                    <img src="img/4.jpg" style="width: 396px;height: 330px" />
+                </div>
+                <a href="#" class="btn">了解详情</a>
+            </li>
+            <li>
+                <div class="info Infos" >
+                    <img src="img/5.jpg" style="width: 396px;height: 330px"/>
+                </div>
+                <a href="#" class="btn">了解详情</a>
+            </li>
+            <li>
+                <div class="info Infos" >
+                    <img src="img/6.jpg" style="width: 396px;height: 330px"/>
+                </div>
+                <a href="#" class="btn">了解详情</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function(){
+        $('.ai_card ul li').hover(function(){
+            $(this).addClass('active').siblings().removeClass('active');
+        })
+    })
+</script>
+</body>
+</html>
